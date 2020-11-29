@@ -1,4 +1,4 @@
-# aws-lambda-helloworld
+# aws-lambda-helloworld ![Terraform](https://github.com/AWS-Terraform-Projects/aws-lambda-helloworld/workflows/Terraform/badge.svg)
 
 This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.
 
