@@ -1,5 +1,7 @@
 # aws-lambda-helloworld ![Terraform](https://github.com/AWS-Terraform-Projects/aws-lambda-helloworld/workflows/Terraform/badge.svg)
 
+A simple lambda project to demonstration how to create a CI/CD pipeline using Terraform and GitHub Action. A step-by-step article can be found at * [AWS Lambda Development Environment with CI/CD](https://www.todaystechnology.org/post/aws-lambda-development-environment-with-ci-cd-part-1)
+
 This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.
 
 - hello-world - Code for the application's Lambda function.
