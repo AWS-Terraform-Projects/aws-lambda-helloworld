@@ -127,3 +127,8 @@ $RECYCLE.BIN/
 
 
 # End of https://www.gitignore.io/api/osx,node,linux,windows
+.secrets
+.terraform/plugins/registry.terraform.io/hashicorp/aws/2.70.0/darwin_amd64/terraform-provider-aws_v2.70.0_x4
+.terraform/plugins/selections.json
+terraform.tfstate
+terraform.tfstate.backup
