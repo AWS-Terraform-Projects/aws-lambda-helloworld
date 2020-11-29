@@ -78,8 +78,8 @@ jobs:
     - run: |
         aws s3 cp hello-world/dist/app.js.zip s3://notes-app-uploads-cloudxpert
         aws s3 ls notes-app-uploads-cloudxpert
-        
-   deploy:
+
+  deploy:
     name: 'Deploy'
     needs: build
     runs-on: ubuntu-latest
