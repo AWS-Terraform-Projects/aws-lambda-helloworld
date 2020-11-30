@@ -70,12 +70,12 @@ jobs:
         npm run build-optimized
     
     - name: Configure AWS credentials from Test account
-      if: github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true 
       uses:  aws-actions/configure-aws-credentials@v1
       with:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: us-east-1
+    - if: github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true 
     - run: |
         aws s3 cp hello-world/dist/app.js.zip s3://notes-app-uploads-cloudxpert
         aws s3 ls notes-app-uploads-cloudxpert
