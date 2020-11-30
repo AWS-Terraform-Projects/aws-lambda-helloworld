@@ -2,7 +2,7 @@
 
 A simple lambda project to demonstrate how to create a CI/CD pipeline using Terraform and GitHub Action.  [AWS Lambda Development Environment with CI/CD](https://www.todaystechnology.org/post/aws-lambda-development-environment-with-ci-cd-part-1) is a four part article series that goes into the details of how this project can be configured and used
 
-This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.
+This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders
 
 - hello-world - Code for the application's Lambda function.
 - events - Invocation events that you can use to invoke the function.
