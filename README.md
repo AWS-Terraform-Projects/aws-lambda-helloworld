@@ -1,5 +1,7 @@
 # aws-lambda-helloworld ![Terraform](https://github.com/AWS-Terraform-Projects/aws-lambda-helloworld/workflows/Terraform/badge.svg)
 
+>A simple lambda project to demonstrate how to create a CI/CD pipeline using Terraform and GitHub Action.  [AWS Lambda Development Environment with CI/CD](https://www.todaystechnology.org/post/aws-lambda-development-environment-with-ci-cd-part-1) is a four part article series that goes into the details of how this project can be configured and used
+
 # Installing and running this project
 <details>
   <summary>Run the lambda function locally</summary>
