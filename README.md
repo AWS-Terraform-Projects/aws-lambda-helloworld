@@ -1,7 +1,40 @@
 # aws-lambda-helloworld ![Terraform](https://github.com/AWS-Terraform-Projects/aws-lambda-helloworld/workflows/Terraform/badge.svg)
 
-A simple lambda project to demonstrate how to create a CI/CD pipeline using Terraform and GitHub Action.  [AWS Lambda Development Environment with CI/CD](https://www.todaystechnology.org/post/aws-lambda-development-environment-with-ci-cd-part-1) is a four part article series that goes into the details of how this project can be configured and used
+# Installing and running this project
+<details>
+  <summary>Run the lambda function locally</summary>
+  
+  
+</details>
 
+<details>
+  <summary>Run the Terraform script</summary>
+  
+  
+</details>
+
+<details>
+  <summary>Run the GitHub Actions workflow</summary>
+    
+</details>
+
+<details>
+  <summary>SAM CLI instructions</summary>
+  
+  A simple lambda project to demonstrate how to create a CI/CD pipeline using Terraform and GitHub Action.  [AWS Lambda Development Environment with CI/CD](https://www.todaystechnology.org/post/aws-lambda-development-environment-with-ci-cd-part-1) is a four part article series that goes into the details of how this project can be configured and used
+
+# Installing and Running this project
+<details>
+  <summary>AWS Lambda CI/CD using GitHub Actions and Terraform</summary>
+  
+  [<img src="https://static.wixstatic.com/media/f9191e_cf391afa64454564b921fe1e38fc2c55~mv2.png/v1/fill/w_663,h_381,al_c,q_90,usm_0.66_1.00_0.01/f9191e_cf391afa64454564b921fe1e38fc2c55~mv2.web">](https://www.todaystechnology.org/post/aws-lambda-development-environment-with-ci-cd-part-1)
+</details>
+
+<details>
+  <summary>Secure Spring Rest API using OpenId Connect And KeyCloak</summary>
+  
+  [<img src="https://static.wixstatic.com/media/f9191e_d618ddaf6073447890264c9f94894020~mv2.png/v1/fill/w_663,h_308,al_c,q_90,usm_0.66_1.00_0.01/f9191e_d618ddaf6073447890264c9f94894020~mv2.webp">](https://www.todaystechnology.org/post/secure-spring-rest-api-using-openid-connect-and-keycloak-part-1)
+</details>
 This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders
 
 - hello-world - Code for the application's Lambda function.
@@ -120,3 +153,4 @@ aws cloudformation delete-stack --stack-name aws-lambda-helloworld
 See the [AWS SAM developer guide](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html) for an introduction to SAM specification, the SAM CLI, and serverless application concepts.
 
 Next, you can use AWS Serverless Application Repository to deploy ready to use Apps that go beyond hello world samples and learn how authors developed their applications: [AWS Serverless Application Repository main page](https://aws.amazon.com/serverless/serverlessrepo/)
+</details>
