@@ -1,6 +1,8 @@
 # aws-lambda-helloworld ![Terraform](https://github.com/AWS-Terraform-Projects/aws-lambda-helloworld/workflows/Terraform/badge.svg)
 
->A simple lambda project to demonstrate how to create a CI/CD pipeline using Terraform and GitHub Action.  [AWS Lambda Development Environment with CI/CD](https://www.todaystechnology.org/post/aws-lambda-development-environment-with-ci-cd-part-1) is a four part article series that goes into the details of how this project can be configured and used
+## Tech Stack ![service aws-lambda](https://img.shields.io/badge/-nodejs-green?style=social&logo=Node.js)![service aws-lambda](https://img.shields.io/badge/-Typescript-green?style=social&logo=TypeScript) ![service aws-lambda](https://img.shields.io/badge/-aws-green?style=social&logo=Amazon+AWS) ![service aws-lambda](https://img.shields.io/badge/-Terraform-green?style=social&logo=Terraform) ![service aws-lambda](https://img.shields.io/badge/-GithubActions-green?style=social&logo=GitHub+Actions)
+
+This project is a simple lambda project to demonstrate how to create a CI/CD pipeline using Terraform and GitHub Action.  [AWS Lambda Development Environment with CI/CD](https://www.todaystechnology.org/post/aws-lambda-development-environment-with-ci-cd-part-1) is a four part article series that goes into the details of how this project can be configured and used
 
 ![CI/CD Pipeline](./documentation/CI-CD-Design.png)
 
