@@ -2,6 +2,7 @@
 
 <p align="center">
 		<a href="https://github.com/AWS-Terraform-Projects/aws-lambda-helloworld/actions/workflows/terraform.yml"><img alt="Terraform" src="https://github.com/AWS-Terraform-Projects/aws-lambda-helloworld/workflows/Terraform/badge.svg" height="20"/></a>
+<a href="https://david-dm.org/AWS-Terraform-Projects/aws-lambda-helloworld?path=hello-world"><img alt="Dependencies Status" src="https://david-dm.org/AWS-Terraform-Projects/aws-lambda-helloworld/status.svg?path=hello-world" height="20"/></a>
 	</p>
 
 
