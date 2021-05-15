@@ -1,24 +1,15 @@
-<!-- ⚠️ This README has been generated from the file(s) "blueprint.md" ⚠️--><h1 align="center">aws-lambda-helloworld</h1>
+{{ template:title }}
 
-<p align="center">
-		<a href="https://github.com/AWS-Terraform-Projects/aws-lambda-helloworld/actions/workflows/terraform.yml"><img alt="Terraform" src="https://github.com/AWS-Terraform-Projects/aws-lambda-helloworld/workflows/Terraform/badge.svg" height="20"/></a>
-	</p>
+{{ template:badges }}
 
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#tech-stack-service-aws-lambdahttpsimgshieldsiobadge-nodejs-greenstylesociallogonodejsservice-aws-lambdahttpsimgshieldsiobadge-typescript-greenstylesociallogotypescript-service-aws-lambdahttpsimgshieldsiobadge-aws-greenstylesociallogoamazonaws-service-aws-lambdahttpsimgshieldsiobadge-terraform-greenstylesociallogoterraform-service-aws-lambdahttpsimgshieldsiobadge-githubactions-greenstylesociallogogithubactions)
-
-## ➤ Tech Stack ![service aws-lambda](https://img.shields.io/badge/-nodejs-green?style=social&logo=Node.js)![service aws-lambda](https://img.shields.io/badge/-Typescript-green?style=social&logo=TypeScript) ![service aws-lambda](https://img.shields.io/badge/-aws-green?style=social&logo=Amazon+AWS) ![service aws-lambda](https://img.shields.io/badge/-Terraform-green?style=social&logo=Terraform) ![service aws-lambda](https://img.shields.io/badge/-GithubActions-green?style=social&logo=GitHub+Actions)
+## Tech Stack ![service aws-lambda](https://img.shields.io/badge/-nodejs-green?style=social&logo=Node.js)![service aws-lambda](https://img.shields.io/badge/-Typescript-green?style=social&logo=TypeScript) ![service aws-lambda](https://img.shields.io/badge/-aws-green?style=social&logo=Amazon+AWS) ![service aws-lambda](https://img.shields.io/badge/-Terraform-green?style=social&logo=Terraform) ![service aws-lambda](https://img.shields.io/badge/-GithubActions-green?style=social&logo=GitHub+Actions)
 
 This project is a simple lambda project to demonstrate how to create a CI/CD pipeline using Terraform and GitHub Action.  [AWS Lambda Development Environment with CI/CD](https://www.todaystechnology.org/post/aws-lambda-development-environment-with-ci-cd-part-1) is a four part article series that goes into the details of how this project can be configured and used
 
 ![CI/CD Pipeline](./documentation/CI-CD-Design.png)
 
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#installing-and-running-this-project)
-
-# ➤ Installing and running this project
+# Installing and running this project
 <details>
   <summary>Run the lambda function locally</summary>
   
@@ -40,10 +31,7 @@ This project is a simple lambda project to demonstrate how to create a CI/CD pip
   <summary>SAM CLI instructions</summary>
   
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#installing-and-running-this-project)
-
-# ➤ Installing and Running this project
+# Installing and Running this project
 
 This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders
 
@@ -62,10 +50,7 @@ The AWS Toolkit is an open source plug-in for popular IDEs that uses the SAM CLI
 * [VS Code](https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/welcome.html)
 * [Visual Studio](https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/welcome.html)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#deploy-the-sample-application)
-
-## ➤ Deploy the sample application
+## Deploy the sample application
 
 The Serverless Application Model Command Line Interface (SAM CLI) is an extension of the AWS CLI that adds functionality for building and testing Lambda applications. It uses Docker to run your functions in an Amazon Linux environment that matches Lambda. It can also emulate your application's build environment and API.
 
@@ -92,10 +77,7 @@ The first command will build the source of your application. The second command 
 
 You can find your API Gateway Endpoint URL in the output values displayed after deployment.
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#use-the-sam-cli-to-build-and-test-locally)
-
-## ➤ Use the SAM CLI to build and test locally
+## Use the SAM CLI to build and test locally
 
 Build your application with the `sam build` command.
 
@@ -131,16 +113,10 @@ The SAM CLI reads the application template to determine the API's routes and the
             Method: get
 ```
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#add-a-resource-to-your-application)
-
-## ➤ Add a resource to your application
+## Add a resource to your application
 The application template uses AWS Serverless Application Model (AWS SAM) to define application resources. AWS SAM is an extension of AWS CloudFormation with a simpler syntax for configuring common serverless application resources such as functions, triggers, and APIs. For resources not included in [the SAM specification](https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md), you can use standard [AWS CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html) resource types.
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#fetch-tail-and-filter-lambda-function-logs)
-
-## ➤ Fetch, tail, and filter Lambda function logs
+## Fetch, tail, and filter Lambda function logs
 
 To simplify troubleshooting, SAM CLI has a command called `sam logs`. `sam logs` lets you fetch logs generated by your deployed Lambda function from the command line. In addition to printing the logs on the terminal, this command has several nifty features to help you quickly find the bug.
 
@@ -152,10 +128,7 @@ aws-lambda-helloworld$ sam logs -n HelloWorldFunction --stack-name aws-lambda-he
 
 You can find more information and examples about filtering Lambda function logs in the [SAM CLI Documentation](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-logging.html).
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#unit-tests)
-
-## ➤ Unit tests
+## Unit tests
 
 Tests are defined in the `hello-world/tests` folder in this project. Use NPM to install the [Mocha test framework](https://mochajs.org/) and run unit tests.
 
@@ -165,10 +138,7 @@ hello-world$ npm install
 hello-world$ npm run test
 ```
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#cleanup)
-
-## ➤ Cleanup
+## Cleanup
 
 To delete the sample application that you created, use the AWS CLI. Assuming you used your project name for the stack name, you can run the following:
 
@@ -176,10 +146,7 @@ To delete the sample application that you created, use the AWS CLI. Assuming you
 aws cloudformation delete-stack --stack-name aws-lambda-helloworld
 ```
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#resources)
-
-## ➤ Resources
+## Resources
 
 See the [AWS SAM developer guide](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html) for an introduction to SAM specification, the SAM CLI, and serverless application concepts.
 
